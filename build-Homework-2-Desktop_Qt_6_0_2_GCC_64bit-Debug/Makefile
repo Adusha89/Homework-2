@@ -141,6 +141,7 @@ DIST          = ../../../Qt/6.0.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/qt_config.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/spec_post.prf \
+		../Homework-2/.qmake.stash \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/toolchain.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -253,6 +254,7 @@ Makefile: ../Homework-2/Homework-2.pro ../../../Qt/6.0.2/gcc_64/mkspecs/linux-g+
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/qt_config.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/toolchain.prf \
 		../../../Qt/6.0.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -355,6 +357,7 @@ Makefile: ../Homework-2/Homework-2.pro ../../../Qt/6.0.2/gcc_64/mkspecs/linux-g+
 ../../../Qt/6.0.2/gcc_64/mkspecs/features/qt_config.prf:
 ../../../Qt/6.0.2/gcc_64/mkspecs/linux-g++/qmake.conf:
 ../../../Qt/6.0.2/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt/6.0.2/gcc_64/mkspecs/features/exclusive_builds.prf:
 ../../../Qt/6.0.2/gcc_64/mkspecs/features/toolchain.prf:
 ../../../Qt/6.0.2/gcc_64/mkspecs/features/default_pre.prf:

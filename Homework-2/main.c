@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <locale.h>
 
 int main()
 {
-
+    setlocale(LC_CTYPE, "");
     // c=(a>b)?b:a; //Если a>b то c=b,  иначе c=a (тернарный оператор)
     int input,i,ch1,ch;
     float sa=0;
@@ -12,9 +12,9 @@ int main()
     printf("Выберете задание для решения:\n1. Первое задание\n2. Второе задание\n3. Третье задание\n4. Четвертое задание\n0. Выход\n");
     do {
         printf ("Ваш выбор: ");
-        scanf("%f", &input);
-        ch=input;
-    } while ((ch-input)!=0); //если разница двух чисел не 0, то ввели не целое число
+        scanf("%f", &pr);
+        input=pr;
+    } while ((input-pr)!=0); //если разница двух чисел не 0, то ввели не целое число
     switch(input) //выбор пункта меню
     {
     case(1):
